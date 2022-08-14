@@ -1,0 +1,2 @@
+execute if entity @a[nbt={SelectedItem:{id:"minecraft:yellow_stained_glass_pane"}}] if score flickering boolean matches 0 run function fnafpack:flickerstart
+execute unless entity @a[nbt={SelectedItem:{id:"minecraft:yellow_stained_glass_pane"}}] run function fnafpack:flickerstop

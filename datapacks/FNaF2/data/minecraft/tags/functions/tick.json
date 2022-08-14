@@ -1,0 +1,15 @@
+{
+    "values": [
+        "fnafpack:tick",
+        "fnafpack:maskcheck",
+        "fnafpack:flashlightcheck",
+        "fnafpack:flickercheck",
+        "camerafunctions:cameracheck",
+        "fnafpack:deathcheck",
+        "fnafpack:ventcheck",
+        "inventoryfunctions:inventorycheck",
+        "fnafpack:hallwaycheck",
+        "fnafpack:crankcheck",
+        "fnafpack:time"
+    ]
+}

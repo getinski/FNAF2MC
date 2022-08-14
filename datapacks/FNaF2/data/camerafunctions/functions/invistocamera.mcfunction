@@ -1,0 +1,2 @@
+effect give @a[scores={playing=1}] minecraft:invisibility 1 1 true
+item replace entity @a[scores={playing=1}] armor.head with minecraft:player_head{display:{Name:"{\"text\":\"Camera\"}"},SkullOwner:{Id:[I;797692767,214648518,-2094961131,-1410769773],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQ0MjJhODJjODk5YTljMTQ1NDM4NGQzMmNjNTRjNGFlN2ExYzRkNzI0MzBlNmU0NDZkNTNiOGIzODVlMzMwIn19fQ=="}]}}}

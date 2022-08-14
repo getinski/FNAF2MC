@@ -1,0 +1,1 @@
+execute if entity @a[scores={playing=1}] run scoreboard players remove time int 1

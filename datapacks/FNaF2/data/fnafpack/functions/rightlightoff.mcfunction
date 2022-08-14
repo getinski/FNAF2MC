@@ -1,0 +1,1 @@
+setblock 8 0 -1 minecraft:air
