@@ -34,6 +34,9 @@ effect clear @a
 # sets all to adventure
 gamemode adventure @a
 
+#test
+tellraw @a "test test"
+
 # sets all xp to 0 levels
 xp set @a 0 levels
 
