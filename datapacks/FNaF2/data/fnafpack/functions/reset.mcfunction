@@ -42,3 +42,5 @@ xp set @a 0 levels
 
 # remove armorstands
 execute positioned 1.00 7.00 -1.50 run kill @e[type=minecraft:armor_stand,distance=..1]
+
+#test
