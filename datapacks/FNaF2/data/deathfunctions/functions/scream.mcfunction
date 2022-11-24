@@ -1,0 +1,1 @@
+execute at @a[scores={playing=-1}] run playsound minecraft:entity.pig.death master @a ~ ~ ~

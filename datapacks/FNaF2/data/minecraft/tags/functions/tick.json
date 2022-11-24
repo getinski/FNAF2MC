@@ -5,7 +5,7 @@
         "fnafpack:flashlightcheck",
         "fnafpack:flickercheck",
         "camerafunctions:cameracheck",
-        "fnafpack:deathcheck",
+        "deathfunctions:deathcheck",
         "fnafpack:ventcheck",
         "inventoryfunctions:inventorycheck",
         "fnafpack:hallwaycheck",
