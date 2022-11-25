@@ -24,23 +24,14 @@ scoreboard players reset marionettesongcounter int
 scoreboard players reset crank
 scoreboard players reset time
 
-# tp all to spawn
 tp @a 0 -32 0 180 0
-
-# clear inventories and effects
 clear @a
 effect clear @a
-
-# sets all to adventure
 gamemode adventure @a
-
-#test
-tellraw @a "test test"
-
-# sets all xp to 0 levels
 xp set @a 0 levels
+difficulty peaceful
+gamerule randomTickSpeed 0
 
 # remove armorstands
 execute positioned 1.00 7.00 -1.50 run kill @e[type=minecraft:armor_stand,distance=..1]
 
-#test

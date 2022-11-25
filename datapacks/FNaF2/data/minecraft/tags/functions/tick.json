@@ -10,6 +10,7 @@
         "inventoryfunctions:inventorycheck",
         "fnafpack:hallwaycheck",
         "fnafpack:crankcheck",
-        "fnafpack:time"
+        "fnafpack:time",
+        "fnafpack:buttoncheck"
     ]
 }
