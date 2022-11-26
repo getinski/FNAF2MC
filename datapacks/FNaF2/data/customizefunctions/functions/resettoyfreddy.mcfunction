@@ -1,7 +1,8 @@
 # adds tags and score values back to animatronic
-execute positioned 51 -31 -7 run scoreboard players set @e[type=armor_stand,limit=1,distance=..1] playing 3
-execute positioned 51 -31 -7 run tag @e[type=armor_stand,limit=1,distance=..1] add animatronic
-execute positioned 51 -31 -7 run tag @e[type=armor_stand,limit=1,distance=..1] add toyfreddy
+scoreboard players set @e[type=armor_stand,limit=1,tag=toyfreddyarmorstand] playing 3
+tag @e[type=armor_stand,limit=1,tag=toyfreddyarmorstand] add animatronic
+tag @e[type=armor_stand,limit=1,tag=toyfreddyarmorstand] add toyfreddy
 
 tag @a remove toyfreddy
-execute positioned 51 -31 -7 run data modify entity @e[type=minecraft:armor_stand,limit=1,distance=..1] CustomNameVisible set value 0b
+data modify entity @e[type=minecraft:armor_stand,limit=1,tag=toyfreddyarmorstand] CustomNameVisible set value 0b
+data modify entity @e[type=minecraft:armor_stand,limit=1,tag=toyfreddyarmorstand] Small set value 1b
