@@ -24,14 +24,16 @@ scoreboard players reset marionettesongcounter int
 scoreboard players reset crank
 scoreboard players reset time
 
-tp @a 0 -32 0 180 0
+# tp @a 0 -32 0 180 0
 clear @a
 effect clear @a
-gamemode adventure @a
+# gamemode adventure @a
 xp set @a 0 levels
 difficulty peaceful
 gamerule randomTickSpeed 0
 
-# remove armorstands
+# remove jumpscare armorstand
 execute positioned 1.00 7.00 -1.50 run kill @e[type=minecraft:armor_stand,distance=..1]
 
+# tp all armorstands back to their respective locations
+tp @e[type=armor_stand, tag=mangle] 48 -31.063 -6 0 0

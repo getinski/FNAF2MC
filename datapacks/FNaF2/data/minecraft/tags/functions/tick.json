@@ -11,6 +11,7 @@
         "fnafpack:hallwaycheck",
         "fnafpack:crankcheck",
         "fnafpack:time",
-        "fnafpack:buttoncheck"
+        "fnafpack:buttoncheck",
+        "customizefunctions:customizecheck"
     ]
 }
