@@ -1,4 +1,3 @@
-setblock -2 -31 -14 minecraft:birch_button[facing=south]
 execute positioned -2 -31 -14 run scoreboard players set @p playing 1
 execute positioned -2 -31 -14 run scoreboard players set @p camera 0
 scoreboard players set marionettesong boolean 0
