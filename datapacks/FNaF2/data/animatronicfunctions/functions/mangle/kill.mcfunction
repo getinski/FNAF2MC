@@ -1,1 +1,1 @@
-tag @e[type=armor_stand,tag=mangle,limit=1] add kill
+tag @e[tag=mangle,limit=1] add kill

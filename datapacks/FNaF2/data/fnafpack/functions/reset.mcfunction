@@ -5,6 +5,8 @@ tag @a remove win
 tag @e remove kill
 tag @a remove cranking
 tag @a remove unwinding
+tag @e remove masktimer
+tag @e remove inoffice
 tag @a remove cam0
 tag @a remove cam1
 tag @a remove cam2
@@ -28,11 +30,14 @@ scoreboard players reset @e timeuntilmove
 scoreboard players reset @e animatronicstep
 scoreboard players reset @e masktimer
 
-tp @a 0 -32 0 180 0
+# turns off all lights and tps players to lobby
+function fnafpack:exploremodestop
+
 clear @a
 effect clear @a
 gamemode adventure @a
 xp set @a 0 levels
+stopsound @a master
 
 schedule clear animatronicfunctions:animatroniccheck
 kill @e[type=minecraft:area_effect_cloud]

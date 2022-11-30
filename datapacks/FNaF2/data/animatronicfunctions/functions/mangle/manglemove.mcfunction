@@ -13,4 +13,5 @@ execute if score @e[tag=mangle, limit=1] animatronicstep matches 4 run function 
 execute if score @e[tag=mangle, limit=1] animatronicstep matches 5 run function animatronicfunctions:mangle/step5
 execute if score @e[tag=mangle, limit=1] animatronicstep matches 6 run function animatronicfunctions:mangle/step6
 execute if score @e[tag=mangle, limit=1] animatronicstep matches 7 run function animatronicfunctions:mangle/step7
-execute if score @e[tag=mangle, limit=1] animatronicstep matches 8 run function animatronicfunctions:mangle/kill
+execute if score @e[tag=mangle, limit=1] animatronicstep matches 8 run function animatronicfunctions:mangle/step8
+execute if score @e[tag=mangle, limit=1] animatronicstep matches 9 run function animatronicfunctions:mangle/kill

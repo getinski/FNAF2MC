@@ -1,5 +1,5 @@
-execute positioned -2 -31 -14 run scoreboard players set @p playing 1
-execute positioned -2 -31 -14 run scoreboard players set @p camera 0
+function fnafpack:initializeplayers
+
 scoreboard players set marionettesong boolean 0
 scoreboard players set crank int 10
 scoreboard players set time int 8400
@@ -48,4 +48,5 @@ scoreboard players operation @e[tag=witheredfreddy] timeuntilmove += movetimebuf
 function math:rng/range
 scoreboard players operation @e[tag=witheredfoxy] timeuntilmove = out math
 scoreboard players operation @e[tag=witheredfoxy] timeuntilmove += movetimebuffer constant
+scoreboard players set @e[tag=animatronic] animatronicstep 0
 function animatronicfunctions:animatroniccheck
