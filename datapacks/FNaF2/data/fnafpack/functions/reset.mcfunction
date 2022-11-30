@@ -1,9 +1,8 @@
 # reset all tags and scoreboards
-tag @a remove animatronic
 tag @a remove dead
 tag @a remove win
 tag @e remove kill
-tag @a remove cranking
+tag @a remove winding
 tag @a remove unwinding
 tag @a remove cam0
 tag @a remove cam1
@@ -24,17 +23,14 @@ scoreboard players reset marionettesong boolean
 scoreboard players reset marionettesongcounter int
 scoreboard players reset crank
 scoreboard players reset time
-scoreboard players reset @e timeuntilmove
-scoreboard players reset @e animatronicstep
 
-tp @a 0 -32 0 180 0
+# tp @a 0 -32 0 180 0
 clear @a
 effect clear @a
-gamemode adventure @a
+# gamemode adventure @a
 xp set @a 0 levels
-
-schedule clear animatronicfunctions:animatroniccheck
-kill @e[type=minecraft:area_effect_cloud]
+difficulty peaceful
+gamerule randomTickSpeed 0
 
 # remove jumpscare armorstand (probably remove later)
 execute positioned 1.00 7.00 -1.50 run kill @e[type=minecraft:armor_stand,distance=..1]

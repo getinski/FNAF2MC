@@ -12,7 +12,6 @@
         "fnafpack:crankcheck",
         "fnafpack:time",
         "fnafpack:buttoncheck",
-        "customizefunctions:customizecheck",
-        "animatronicfunctions:playerlock"
+        "customizefunctions:customizecheck"
     ]
 }
