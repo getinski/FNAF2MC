@@ -1,5 +1,6 @@
 {
     "values": [
-        "fnafpack:load"
+        "fnafpack:load",
+        "math:zprivate/init"
     ]
 }

@@ -1,0 +1,1 @@
+tag @e[tag=mangle,limit=1] add kill
