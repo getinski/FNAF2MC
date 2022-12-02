@@ -6,5 +6,9 @@ data modify entity @e[type=armor_stand,tag=mangle,limit=1] Pose set value {Body:
 data modify entity @e[type=area_effect_cloud,tag=manglecloud,limit=1] Pos set value [6.5d,0.0d,-0.5d]
 data modify entity @e[type=area_effect_cloud,tag=manglecloud,limit=1] Rotation set value [90.0f,0.0f]
 
+# sound stuff
+stopsound @a master entity.axolotl.death
+playsound minecraft:entity.axolotl.death master @a 1 4 -3
+
 tag @e[tag=mangle] remove masktimer
 schedule function animatronicfunctions:mangle/kill 20s
