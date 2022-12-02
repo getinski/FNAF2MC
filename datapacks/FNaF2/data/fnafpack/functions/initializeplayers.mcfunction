@@ -49,3 +49,7 @@ item replace entity @a[tag=witheredfoxy] armor.feet from entity @e[type=minecraf
 # makes nearest player the nightgaurd
 execute positioned -2 -31 -14 run scoreboard players set @p playing 1
 execute positioned -2 -31 -14 run scoreboard players set @p camera 0
+
+# makes non-players spectators
+execute as @a unless entity @s[scores={playing=1..}] run gamemode spectator @s
+execute as @a unless entity @s[scores={playing=1..}] run tp @s 0 0 0

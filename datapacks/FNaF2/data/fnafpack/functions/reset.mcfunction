@@ -40,10 +40,11 @@ xp set @a 0 levels
 stopsound @a master
 
 schedule clear animatronicfunctions:animatroniccheck
+schedule clear fnafpack:marionettesong
 kill @e[type=minecraft:area_effect_cloud]
 
-# remove jumpscare armorstand (probably remove later)
-execute positioned 1.00 7.00 -1.50 run kill @e[type=minecraft:armor_stand,distance=..1]
+# gives gravity back to armor stands
+execute as @e[type=armor_stand] run data modify entity @s NoGravity set value 1b
 
 # tp all armorstands back to their respective locations and reset their poses
 tp @e[type=armor_stand, tag=manglearmorstand] 48 -31.063 -6 0 0
